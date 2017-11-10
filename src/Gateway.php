@@ -12,7 +12,7 @@ class Gateway extends AbstractGateway
 {
     public function getName()
     {
-        return 'Payconiq';
+        return 'payconiqa2a';
     }
 
     public function getDefaultParameters()
