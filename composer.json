@@ -1,5 +1,5 @@
 {
-  "name": "omnipay/payconiq",
+  "name": "omnipay/payconiq-a2a",
   "type": "library",
   "description": "Payconiq driver for the Omnipay payment processing library",
   "keywords": [
