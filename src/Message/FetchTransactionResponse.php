@@ -4,7 +4,7 @@
  * Time: 10:29
  */
 
-namespace Omnipay\Payconiq\Message;
+namespace Omnipay\PayconiqA2A\Message;
 
 
 

@@ -4,7 +4,7 @@
  * Time: 11:23
  */
 
-namespace Omnipay\Payconiq\Message;
+namespace Omnipay\PayconiqA2A\Message;
 
 
 class AbstractResponse extends \Omnipay\Common\Message\AbstractResponse

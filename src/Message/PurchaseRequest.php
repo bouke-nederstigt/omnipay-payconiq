@@ -3,7 +3,7 @@
  * Payconiq Purchase Request
  */
 
-namespace Omnipay\Payconiq\Message;
+namespace Omnipay\PayconiqA2A\Message;
 
 class PurchaseRequest extends AbstractRequest
 {

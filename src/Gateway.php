@@ -3,7 +3,7 @@
  * Payconiq Gateway
  */
 
-namespace Omnipay\Payconiq;
+namespace Omnipay\PayconiqA2A;
 
 use Omnipay\Common\AbstractGateway;
 

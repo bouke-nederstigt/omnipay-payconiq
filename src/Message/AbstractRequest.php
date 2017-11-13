@@ -3,7 +3,7 @@
  * Payconiq Abstract Request
  */
 
-namespace Omnipay\Payconiq\Message;
+namespace Omnipay\PayconiqA2A\Message;
 
 use Guzzle\Common\Event;
 

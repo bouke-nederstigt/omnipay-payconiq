@@ -1,6 +1,6 @@
 <?php
-use Omnipay\Payconiq\Message\PurchaseRequest;
-use Omnipay\Payconiq\Message\PurchaseResponse;
+use Omnipay\PayconiqA2A\Message\PurchaseRequest;
+use Omnipay\PayconiqA2A\Message\PurchaseResponse;
 use Omnipay\Tests\TestCase;
 
 /**

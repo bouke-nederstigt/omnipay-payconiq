@@ -3,7 +3,7 @@
  * Payconiq Fetch Transaction Request
  */
 
-namespace Omnipay\Payconiq\Message;
+namespace Omnipay\PayconiqA2A\Message;
 
 class FetchTransactionRequest extends AbstractRequest
 {

@@ -3,7 +3,7 @@
  * Payconiq Response
  */
 
-namespace Omnipay\Payconiq\Message;
+namespace Omnipay\PayconiqA2A\Message;
 
 use Guzzle\Http\Message\Response as GuzzleResponse;
 use Omnipay\Common\Exception\InvalidResponseException;

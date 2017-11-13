@@ -1,6 +1,6 @@
 <?php
-use Omnipay\Payconiq\Message\FetchTransactionRequest;
-use Omnipay\Payconiq\Message\FetchTransactionResponse;
+use Omnipay\PayconiqA2A\Message\FetchTransactionRequest;
+use Omnipay\PayconiqA2A\Message\FetchTransactionResponse;
 use Omnipay\Tests\TestCase;
 
 /**
