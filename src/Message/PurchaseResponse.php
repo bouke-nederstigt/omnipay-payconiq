@@ -7,7 +7,7 @@
 namespace Omnipay\Payconiq\Message;
 
 
-use Omnipay\Common\Message\AbstractResponse;
+
 
 class PurchaseResponse extends AbstractResponse
 {
