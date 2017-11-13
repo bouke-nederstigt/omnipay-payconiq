@@ -7,9 +7,7 @@
 namespace Omnipay\PayconiqA2A\Message;
 
 
-
-
-class PurchaseResponse extends AbstractResponse
+class PurchaseResponse extends \Omnipay\PayconiqA2A\Message\AbstractResponse
 {
     /**
      * When you do a `purchase` the request is never successful because

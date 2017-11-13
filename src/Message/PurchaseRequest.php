@@ -5,7 +5,7 @@
 
 namespace Omnipay\PayconiqA2A\Message;
 
-class PurchaseRequest extends AbstractRequest
+class PurchaseRequest extends \Omnipay\PayconiqA2A\Message\AbstractRequest
 {
     public function getData()
     {

@@ -9,7 +9,7 @@ namespace Omnipay\PayconiqA2A\Message;
 
 
 
-class FetchTransactionResponse extends AbstractResponse
+class FetchTransactionResponse extends \Omnipay\PayconiqA2A\Message\AbstractResponse
 {
     public function isSuccessful()
     {
