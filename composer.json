@@ -15,7 +15,7 @@
   "authors": [],
   "autoload": {
     "psr-4": {
-      "Omnipay\\Payconiq\\": "src/"
+      "Omnipay\\PayconiqA2A\\": "src/"
     }
   },
   "require": {
