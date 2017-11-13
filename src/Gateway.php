@@ -55,7 +55,7 @@ class Gateway extends AbstractGateway
      */
     public function purchase(array $parameters = [])
     {
-        return $this->createRequest('\Omnipay\Payconiq\Message\PurchaseRequest', $parameters);
+        return $this->createRequest('\Omnipay\PayconiqA2A\Message\PurchaseRequest', $parameters);
     }
 
     /**
@@ -64,6 +64,6 @@ class Gateway extends AbstractGateway
      */
     public function fetchTransaction(array $parameters = [])
     {
-        return $this->createRequest('\Omnipay\Payconiq\Message\FetchTransactionRequest', $parameters);
+        return $this->createRequest('\Omnipay\PayconiqA2A\Message\FetchTransactionRequest', $parameters);
     }
 }
