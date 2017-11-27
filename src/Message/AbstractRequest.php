@@ -52,7 +52,7 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
         return $this->getEnvironmentEndPoint();
     }
 
-    protected function sendRequest($method, $endpoint, $data = null)
+    protected function sendRequest($method, $endpoint, $data = "")
     {
         $this->httpClient->getEventDispatcher()->addListener('request.error', function (Event $event) {
             /**
@@ -65,10 +65,10 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
             }
         });
 
-        if($data){
+        if(is_array($data) || strlen($data) > 0){
             // only json encode if data is actually set,
-            // otherwise we might up with 'null' string and fatal errors from Guzzle
-            json_encode($data);
+            // otherwise we might up with 'null' string and fatal errors
+            $data = json_encode($data);
         }
 
         $httpRequest = $this->httpClient->createRequest(
