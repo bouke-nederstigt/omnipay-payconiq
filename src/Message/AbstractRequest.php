@@ -65,6 +65,12 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
             }
         });
 
+        if($data){
+            // only json encode if data is actually set,
+            // otherwise we might up with 'null' string and fatal errors from Guzzle
+            json_encode($data);
+        }
+
         $httpRequest = $this->httpClient->createRequest(
             $method,
             $this->getEndPoint() . $endpoint,
@@ -73,7 +79,7 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
                 'Accept' => 'application/json',
                 'Authorization' => $this->getApiKey(),
             ],
-            json_encode($data)
+            $data
         );
 
         return $httpRequest->send();
